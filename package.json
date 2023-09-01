@@ -1,0 +1,34 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "tao 1 project dau tien 'blog' voi NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon --inspect ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huynhchiz/blog-with-node.git"
+  },
+  "keywords": [
+    "f8",
+    "blog",
+    "node",
+    "nodeJS",
+    "huynhchi",
+    "firstnodeproject"
+  ],
+  "author": "huynhchi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huynhchiz/blog-with-node/issues"
+  },
+  "homepage": "https://github.com/huynhchiz/blog-with-node#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
